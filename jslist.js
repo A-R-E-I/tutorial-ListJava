@@ -15,42 +15,41 @@ function Initialize()
 	{
 		let li = document.createElement("li");
 		li.innerText = carlst[i];
-		listelement = appendChild(li);	
+		listelement.appendChild(li);	
 	}
 	
 	for(let i=0; i<listlength; i++)
 	{
 		let li = document.createElement("li");
 		li.innerText = carlst[i];
-		listnum = appendChild(li);	
+		listnum.appendChild(li);	
 	}
 	
 	for(let i=0; i<listlength; i++)
 	{
 		let li = document.createElement("li");
 		li.innerText = carlst[i];
-		listcap = appendChild(li);	
+		listcap.appendChild(li);	
 	}
 	
 	for(let i=0; i<listlength; i++)
 	{
 		let li = document.createElement("li");
 		li.innerText = carlst[i];
-		listlow = appendChild(li);	
+		listlow.appendChild(li);	
 	}
 	
 	for(let i=0; i<listlength; i++)
 	{
 		let li = document.createElement("li");
 		li.innerText = carlst[i];
-		listcaproman = appendChild(li);	
+		listcaproman.appendChild(li);	
 	}
 	
 	for(let i=0; i<listlength; i++)
 	{
 		let li = document.createElement("li");
 		li.innerText = carlst[i];
-		listlowroman = appendChild(li);	
+		listlowroman.appendChild(li);	
 	}
 }
-
